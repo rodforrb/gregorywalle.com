@@ -7,7 +7,7 @@
 // Scripts
 // 
 
-const demoPath = '/demo/'
+const demoPath = '/home/ben/Stuff/Prog/Gregory Website/www/demo/'
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -203,7 +203,7 @@ jQuery(function ($) {
     }
 });
 
-// Language switcher
+    // Language switcher
 jQuery(function ($) {
   
     // Initially disable language switching button.
@@ -238,7 +238,12 @@ jQuery(function ($) {
         langButtonListen();
       }
     } else {
-      // no cookie set, so detect language based on location.
+      // no cookie set, default English
+        $('[lang="fr"]').hide();
+        $.cookie('lang', 'en', { expires: 7 });
+        langButtonListen();
+
+
     //   if ("geolocation" in navigator) {
     //     // geolocation is available
     //     navigator.geolocation.getCurrentPosition(function (position) {
