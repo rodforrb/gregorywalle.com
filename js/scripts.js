@@ -7,7 +7,7 @@
 // Scripts
 // 
 
-const demoPath = '/home/ben/Stuff/Prog/Gregory Website/www/demo/'
+const demoPath = 'demo/'
 
 window.addEventListener('DOMContentLoaded', event => {
 
