@@ -7,7 +7,7 @@
 // Scripts
 // 
 
-const demoPath = 'demo/'
+const demoPath = '/demo/'
 
 window.addEventListener('DOMContentLoaded', event => {
 
