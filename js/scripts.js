@@ -34,7 +34,6 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 });
 
-
 jQuery(function ($) {
     'use strict'
     var supportsAudio = !!document.createElement('audio').canPlayType;
