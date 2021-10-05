@@ -202,7 +202,7 @@ jQuery(function ($) {
     }
 });
 
-    // Language switcher
+// Language switcher
 jQuery(function ($) {
   
     // Initially disable language switching button.
