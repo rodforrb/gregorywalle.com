@@ -58,7 +58,7 @@ jQuery(function ($) {
             tracks = [{
                 "track": 1,
                 "name": "Commercial Voice Demo",
-                "duration": "1:33",
+                "duration": "0:58",
                 "file": "Gregory Walle Commercial Voice Demo v3 AUG 11"
             }, {
                 "track": 2,
