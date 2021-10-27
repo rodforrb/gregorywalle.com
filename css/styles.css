@@ -1393,7 +1393,7 @@ progress {
 
   .col-lg-6 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 100%;
   }
 
   .col-lg-7 {
@@ -11343,9 +11343,18 @@ section {
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: white;
 }
-/* #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #2937f0;
-} */
+
+.portrait {
+  position: relative;
+  padding: 15rem 0;
+  
+  background-position: top;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url("../assets/img/portrait.jpg");
+}
+
+
 
 /*!
  * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
@@ -11543,7 +11552,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 .masthead {
-  background-color: #f8f9fa;
+  background-color: rgb(206, 199, 198);
   padding-top: 9.5rem;
   padding-bottom: 5rem;
 }
