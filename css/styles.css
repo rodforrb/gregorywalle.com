@@ -11289,7 +11289,8 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: linear-gradient(120deg, #6871f0, #3f1ae2) !important;
+  /* background-color: rgb(41, 37, 36); */
+  background: linear-gradient(120deg, rgb(54, 49, 47), rgb(41, 37, 36)) !important;
 }
 
 .font-alt {
@@ -11320,7 +11321,7 @@ section {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgb(66, 70, 82);
+  background-color: rgb(41, 37, 36);
 }
 #mainNav .navbar-brand {
   font-size: 2rem;
@@ -11408,9 +11409,12 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("../assets/img/mic.PNG");
+  
+  background: black;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
+  background-image: url("../assets/img/mic.PNG");
 }
 section.cta .cta-content {
   position: relative;
@@ -11423,7 +11427,7 @@ section.cta:before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.65);
 }
 
 .icon-feature {
