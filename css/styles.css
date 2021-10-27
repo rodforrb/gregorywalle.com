@@ -61,6 +61,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+  --lightbrown: rgb(206, 199, 198);
 }
 
 *,
@@ -11551,8 +11552,12 @@ footer a:hover, footer a:active, footer a:focus {
   text-decoration: underline;
 }
 
+#demos , #about, #highlights{
+  background-color: var(--lightbrown);
+}
+
 .masthead {
-  background-color: rgb(206, 199, 198);
+  background-color: var(--lightbrown);
   padding-top: 9.5rem;
   padding-bottom: 5rem;
 }
