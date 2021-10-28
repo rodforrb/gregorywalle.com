@@ -1,5 +1,5 @@
 
-const demoPath = '/home/ben/Stuff/Prog/Gregory Website/www/demo/'
+const demoPath = '/demo/'
 
 jQuery(function ($) {
     'use strict'
