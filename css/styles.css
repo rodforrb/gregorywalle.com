@@ -11552,7 +11552,7 @@ footer a:hover, footer a:active, footer a:focus {
   text-decoration: underline;
 }
 
-#demos , #about, #highlights{
+#demos , #about, #highlights, .lightbrown{
   background-color: var(--lightbrown);
 }
 
