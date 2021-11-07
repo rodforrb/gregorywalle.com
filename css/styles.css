@@ -11530,6 +11530,12 @@ section.cta:before {
     margin-left: auto;
   }
 }
+
+@media (max-width: 768px) {
+  #demos {
+    padding-bottom: 0;
+  }  
+}
 @media (min-width: 1200px) {
   .features-device-mockup .circle {
     width: 75%;
@@ -11565,9 +11571,6 @@ footer a:hover, footer a:active, footer a:focus {
   background-color: var(--lightbrown);
 }
 
-#demos {
-  padding-bottom: 0;
-}
 
 .btn-orange {
   color: white;
