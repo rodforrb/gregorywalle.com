@@ -61,7 +61,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
-  --lightbrown: rgb(206, 199, 198);
+  --lightbrown: rgb(243, 215, 202);
 }
 
 *,
@@ -5033,7 +5033,7 @@ textarea.form-control-lg {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #2937f0;
+  background-color: orange;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -11355,7 +11355,15 @@ section {
   background-image: url("../assets/img/portrait.jpg");
 }
 
+.painting {
+  margin: 0;
+}
 
+.painting img{
+  position: relative;
+  max-width: 100%;
+  /* overflow: hidden; */
+}
 
 /*!
  * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
