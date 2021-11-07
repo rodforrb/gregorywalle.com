@@ -11565,6 +11565,10 @@ footer a:hover, footer a:active, footer a:focus {
   background-color: var(--lightbrown);
 }
 
+#demos {
+  padding-bottom: 0;
+}
+
 .btn-orange {
   color: white;
   background-color: orange;
