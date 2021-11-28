@@ -11359,8 +11359,7 @@ section {
 .portrait .overlay{
   position: absolute;
   height: auto;
-  width: 100%;
-  margin: 0;
+  width: 95%;
   bottom: 4px;
   left: 16px;
 }
