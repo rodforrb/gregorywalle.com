@@ -175,7 +175,7 @@ address {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: 0.5rem;
 }
 
 ol,
@@ -11312,7 +11312,7 @@ section {
 }
 
 #about {
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
 }
 
 .app-badge {
@@ -11353,6 +11353,16 @@ section {
   background-size: cover;
   overflow: hidden;
   background-image: url("../assets/img/portrait.jpg");
+
+}
+
+.portrait .overlay{
+  position: absolute;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  bottom: 4px;
+  left: 16px;
 }
 
 .tileimage {
@@ -11503,6 +11513,8 @@ section.cta:before {
     max-width: 12.5rem;
   }
 }
+
+/* desktop mode */
 @media (min-width: 768px) {
   .features-device-mockup .circle {
     width: 60%;
@@ -11511,7 +11523,38 @@ section.cta:before {
   .features-device-mockup .device-wrapper {
     max-width: 15rem;
   }
+
+  .portrait .overlay {
+    display: none;
+  }
+
+  .topsection {
+    display: grid !important;
+    max-width: 100% !important;
+    justify-content: center !important;
+  }
 }
+
+.navitem {
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+}
+
+/* mobile mode */
+@media (max-width: 768px) {
+  #demos {
+    padding-bottom: 0;
+  }  
+
+  .topsection {
+    display: none;
+  }
+
+  .masthead {
+    padding-top: 5.5rem !important;
+  }
+}
+
 @media (min-width: 992px) {
   .features-device-mockup .circle {
     width: 90%;
@@ -11531,11 +11574,6 @@ section.cta:before {
   }
 }
 
-@media (max-width: 768px) {
-  #demos {
-    padding-bottom: 0;
-  }  
-}
 @media (min-width: 1200px) {
   .features-device-mockup .circle {
     width: 75%;
@@ -11556,6 +11594,9 @@ section.cta:before {
   }
   .features-device-mockup .device-wrapper {
     max-width: 17rem;
+  }
+  .navitem {
+    padding-right: 3rem;
   }
 }
 footer a {
@@ -11774,6 +11815,7 @@ width:70%;
   padding-top: 2em;
 } */
 
+
 .plList li {
 /* background-color: rgba(177, 216, 230, 0.5); */
 cursor:pointer;
@@ -11788,6 +11830,7 @@ background-color:rgba(0, 0, 0, .1);
 
 .plItem {
 position:relative;
+padding-left: 1rem;
 }
 
 .plTitle {
@@ -11904,4 +11947,5 @@ margin-left:7px;
 
 .wide {
   width: 100%;
+  max-width: 95%;
 }
