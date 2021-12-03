@@ -28,42 +28,37 @@ jQuery(function ($) {
                 "duration": "0:07",
                 "file": "Gregory Walle LL BEAN"
             }, {
-                "track": 2,
+                "track": 32,
                 "name": "McCafe",
-                "duration": "0:10",
+                "duration": "0:12",
                 "file": "Gregory Walle McCafe"
             }, {
                 "track": 3,
-                "name": "McCafe v2",
-                "duration": "0:12",
-                "file": "Gregory Walle McCafe v2"
-            }, {
-                "track": 4,
                 "name": "Morocco",
                 "duration": "0:09",
                 "file": "Gregory Walle Morocco"
             }, {
-                "track": 5,
+                "track": 4,
                 "name": "Molson Canadian",
                 "duration": "0:09",
                 "file": "Gregory Walle Molson Canadian"
             }, {
-                "track": 6,
+                "track": 5,
                 "name": "Scotia Bank",
                 "duration": "0:07",
                 "file": "Gregory Walle Scotia Bank"
             }, {
-                "track": 7,
+                "track": 6,
                 "name": "Denver Broncos and Coffee",
                 "duration": "0:09",
                 "file": "Gregory Walle Denver Broncos and Coffee"
             }, {
-                "track": 8,
+                "track": 7,
                 "name": "Mazda",
                 "duration": "0:13",
                 "file": "Gregory Walle Mazda"
             }, {
-                "track": 9,
+                "track": 8,
                 "name": "Kansas Power",
                 "duration": "0:12",
                 "file": "Gregory Walle Kansas Power"

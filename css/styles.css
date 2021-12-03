@@ -504,7 +504,7 @@ progress {
 }
 @media (min-width: 1200px) {
   .display-1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 
@@ -11726,6 +11726,10 @@ letter-spacing:.025rem;
 line-height:1.618;
 padding:1rem 0;
 } */
+
+body {
+  background-color: var(--lightbrown);
+}
 
 *,::before,::after {
 box-sizing:border-box;
