@@ -11532,6 +11532,10 @@ section.cta:before {
     max-width: 100% !important;
     justify-content: center !important;
   }
+
+  .mobile {
+    display: none;
+  }
 }
 
 .navitem {
@@ -11551,6 +11555,10 @@ section.cta:before {
 
   .masthead {
     padding-top: 5.5rem !important;
+  }
+
+  .desktop {
+    display: none;
   }
 }
 
