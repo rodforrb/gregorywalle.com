@@ -31,7 +31,7 @@ jQuery(function ($) {
                 "track": 32,
                 "name": "McCafe",
                 "duration": "0:12",
-                "file": "Gregory Walle McCafe"
+                "file": "Gregory Walle McCafe v2"
             }, {
                 "track": 3,
                 "name": "Morocco",
