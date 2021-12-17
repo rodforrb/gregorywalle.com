@@ -28,7 +28,7 @@ jQuery(function ($) {
                 "duration": "0:07",
                 "file": "Gregory Walle LL BEAN"
             }, {
-                "track": 32,
+                "track": 2,
                 "name": "McCafe",
                 "duration": "0:12",
                 "file": "Gregory Walle McCafe v2"
